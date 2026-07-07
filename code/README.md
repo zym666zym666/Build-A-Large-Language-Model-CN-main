@@ -24,6 +24,7 @@ python run.py
 ```
 
 **运行结果**：
+
 - 自动下载示例数据集（the-verdict.txt）
 - 初始化GPT-124M模型
 - 训练5个epoch，每50步打印训练/验证损失
@@ -68,19 +69,19 @@ code/
 
 ## 模块说明
 
-| 文件 | 核心内容 | 可直接运行 |
-|------|---------|-----------|
-| `run.py` | 完整训练流程（下载→训练→生成） | ✅ |
-| `previous_chapters.py` | 共享依赖模块，整合所有类和函数 | ❌ |
-| `chapter02.py` | 分词器、数据集类、数据加载器 | ❌ |
-| `chapter03.py` | 自注意力、因果注意力、多头注意力 | ❌ |
-| `chapter04.py` | 层归一化、GELU、Transformer块、GPT模型 | ❌ |
-| `chapter05.py` | 预训练循环、损失评估、贪婪解码生成 | ❌ |
-| `chapter06.py` | 指令微调数据集、自定义批量处理 | ❌ |
-| `chapter07.py` | DDP分布式训练、多GPU环境配置 | ❌ |
-| `appendixA.py` | 学习率warmup、余弦退火、梯度裁剪 | ❌ |
-| `appendixD.py` | LoRA层、参数高效微调 | ❌ |
-| `appendixE.py` | GPT-2权重加载、分类微调、垃圾邮件检测 | ❌ |
+| 文件                     | 核心内容                               | 可直接运行 |
+| ------------------------ | -------------------------------------- | ---------- |
+| `run.py`               | 完整训练流程（下载→训练→生成）       | ✅         |
+| `previous_chapters.py` | 共享依赖模块，整合所有类和函数         | ❌         |
+| `chapter02.py`         | 分词器、数据集类、数据加载器           | ❌         |
+| `chapter03.py`         | 自注意力、因果注意力、多头注意力       | ❌         |
+| `chapter04.py`         | 层归一化、GELU、Transformer块、GPT模型 | ❌         |
+| `chapter05.py`         | 预训练循环、损失评估、贪婪解码生成     | ❌         |
+| `chapter06.py`         | 指令微调数据集、自定义批量处理         | ❌         |
+| `chapter07.py`         | DDP分布式训练、多GPU环境配置           | ❌         |
+| `appendixA.py`         | 学习率warmup、余弦退火、梯度裁剪       | ❌         |
+| `appendixD.py`         | LoRA层、参数高效微调                   | ❌         |
+| `appendixE.py`         | GPT-2权重加载、分类微调、垃圾邮件检测  | ❌         |
 
 ## 模型配置
 
